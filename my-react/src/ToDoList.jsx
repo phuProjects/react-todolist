@@ -9,12 +9,17 @@ export default function ToDoList(){
     }
 
     function addTask(){
-        if (input.trim() === "")return //prevent adding empty tasks
-        setTasks([...tasks, inputValue])
-        setNewTask("")
+
+        if(newTask.trim() !== ""){
+            setTasks([...tasks, newTask])
+            setNewTask("")
+        }
     }
 
-    function deleteTask(){
+    function deleteTask(index){
+
+        const updatedTask = tasks.filter((_, i) => i !== index)
+        setTasks(updatedTask)
     }
 
     return(
@@ -27,13 +32,18 @@ export default function ToDoList(){
                        placeholder="Enter a new task" 
                        value={newTask}
                        onChange={handleTaskChange}/>
-                <button onClick={addTask}>Add Task</button>
+
+                <button className="add-button"
+                        onClick={addTask}>Add Task</button>
             </div>
 
             <div>
                 <ul>
                     {tasks.map((task, index) => (
-                        <li key={index}>{task}</li>
+                        <li key={index}>
+                        <span className="text">{task}</span>
+                        <button className="delete-button" onClick={() => deleteTask(index)}>Del</button>
+                        </li>
                     ))}
                 </ul>
             </div>
