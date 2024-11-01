@@ -1,6 +1,6 @@
 # To-Do List Application
 
-This is a simple To-Do List application built with React. It allows users to add, remove, and rearrange tasks. The application showcases the use of React hooks like `useState` for state management.
+This is a simple To-Do List application built with React. It allows users to add, remove, and rearrange tasks.
 
 ## Features
 
