@@ -1,21 +1,21 @@
-# To-Do List Application
+# 📝 To-Do List Application
 
 This is a simple To-Do List application built with React. It allows users to add, remove, and rearrange tasks.
 
-## Features
+## Features ✨
 
-- Add new tasks
-- Remove tasks
-- Move tasks up and down the list
-- Simple and clean user interface
+- ✅ Add new tasks
+- ❌ Remove tasks
+- ⬆️ Move tasks up and down the list
+- 🎨 Simple and clean user interface
 
-## Technologies Used
+## Technologies Used 🛠️
 
 - **React**: A JavaScript library for building user interfaces.
 - **JavaScript**: The programming language used to write the application.
 - **CSS**: For styling the application.
 
-## Getting Started
+## Getting Started 🚀
 
 ### Prerequisites
 
