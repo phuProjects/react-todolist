@@ -28,4 +28,4 @@ This is a simple To-Do List application built with React. It allows users to add
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/todo-list.git
+   git clone https://github.com/phuProjects/react-todolist.git
