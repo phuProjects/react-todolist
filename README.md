@@ -2,6 +2,8 @@
 
 This is a simple To-Do List application built with React. It allows users to add, remove, and rearrange tasks.
 
+![image](https://github.com/user-attachments/assets/f4f2568e-991d-49f5-9be7-3707d8901122)
+
 ## Features ✨
 
 - ✅ Add new tasks
